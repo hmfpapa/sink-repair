@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
+
+div.field {
+    flex-direction: column;
+    flex-basis: 75%;
+    font-family: "Comfortaa", Arial, sans-serif;
+    font-size: 14px;
+    margin: 0 2rem;
+    padding: 1rem;  
+}
+
+label.label {
+    font-size: 20px
+}
+
+.label::after{
+    content: "\a";
+    white-space: pre;
+}
+
+input.input {
+    min-width: 500px;
+}
+
+.button {
+    background-color:mediumspringgreen;
+    padding: 15px 15px;
+}
